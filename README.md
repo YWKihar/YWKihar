@@ -48,37 +48,11 @@ My approach is hands-on and structured: practice in labs, build projects, docume
 
 <div align="center">
 
-```mermaid
-flowchart LR
-    P["01 · PLAN<br/>Define & Prioritize"]
-    C["02 · CODE<br/>Version Control"]
-    B["03 · BUILD<br/>Package & Integrate"]
-    T["04 · TEST<br/>Validate Quality"]
-    R["05 · RELEASE<br/>Prepare Delivery"]
-    D["06 · DEPLOY<br/>Automate Rollout"]
-    O["07 · OPERATE<br/>Run Services"]
-    M["08 · MONITOR<br/>Observe & Learn"]
-
-    P --> C --> B --> T --> R --> D --> O --> M
-    M -. "Feedback & Continuous Improvement" .-> P
-
-    classDef planning fill:#172334,stroke:#8b9bb0,color:#f8fafc,stroke-width:1.5px
-    classDef delivery fill:#172334,stroke:#7cbf12,color:#f8fafc,stroke-width:1.8px
-    classDef operations fill:#172334,stroke:#2496ed,color:#f8fafc,stroke-width:1.5px
-    class P,C planning
-    class B,T,R,D delivery
-    class O,M operations
-
-    linkStyle 7 stroke:#a8e20e,stroke-width:2px,stroke-dasharray:5 5
-```
+<img src="assets/devops-lifecycle.svg" alt="Animated digital DevOps lifecycle showing Plan, Code, Build and Test, Release, Deploy, Operate, Monitor, and continuous feedback" width="100%" />
 
 </div>
 
-<div align="center">
-  <sub>Plan → Code → Build → Test → Release → Deploy → Operate → Monitor → Improve</sub>
-</div>
-
-This lifecycle is iterative: operational feedback and monitoring inform the next planning and engineering cycle.
+<sub>Animated SVG lifecycle visualization. The loop represents the continuous feedback model of DevOps.</sub>
 
 ## Selected Projects
 
