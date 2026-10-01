@@ -44,29 +44,41 @@ My approach is hands-on and structured: practice in labs, build projects, docume
 | CI/CD | Jenkins labs and pipeline fundamentals |
 | Orchestration | Kubernetes lab practice |
 
-## Practical Delivery Pattern
+## DevOps Lifecycle
 
 <div align="center">
 
 ```mermaid
 flowchart LR
-    A["Application / Source"] --> B["Git & GitHub"]
-    B --> C["Build and Checks"]
-    C --> D["Deployment Automation"]
-    D --> E["Linux Host / AWS EC2"]
-    E --> F["Deploy and Verify"]
+    P["01 · PLAN<br/>Define & Prioritize"]
+    C["02 · CODE<br/>Version Control"]
+    B["03 · BUILD<br/>Package & Integrate"]
+    T["04 · TEST<br/>Validate Quality"]
+    R["05 · RELEASE<br/>Prepare Delivery"]
+    D["06 · DEPLOY<br/>Automate Rollout"]
+    O["07 · OPERATE<br/>Run Services"]
+    M["08 · MONITOR<br/>Observe & Learn"]
 
-    style A fill:#172334,stroke:#64748b,color:#f8fafc
-    style B fill:#172334,stroke:#64748b,color:#f8fafc
-    style C fill:#172334,stroke:#7cbf12,color:#f8fafc
-    style D fill:#172334,stroke:#ee0000,color:#f8fafc
-    style E fill:#172334,stroke:#ff9900,color:#f8fafc
-    style F fill:#20351a,stroke:#a8e20e,color:#f8fafc
+    P --> C --> B --> T --> R --> D --> O --> M
+    M -. "Feedback & Continuous Improvement" .-> P
+
+    classDef planning fill:#172334,stroke:#8b9bb0,color:#f8fafc,stroke-width:1.5px
+    classDef delivery fill:#172334,stroke:#7cbf12,color:#f8fafc,stroke-width:1.8px
+    classDef operations fill:#172334,stroke:#2496ed,color:#f8fafc,stroke-width:1.5px
+    class P,C planning
+    class B,T,R,D delivery
+    class O,M operations
+
+    linkStyle 7 stroke:#a8e20e,stroke-width:2px,stroke-dasharray:5 5
 ```
 
 </div>
 
-<sub>Conceptual workflow illustrating areas practiced across labs and projects; not a claim of a single production pipeline.</sub>
+<div align="center">
+  <sub>Plan → Code → Build → Test → Release → Deploy → Operate → Monitor → Improve</sub>
+</div>
+
+This lifecycle is iterative: operational feedback and monitoring inform the next planning and engineering cycle.
 
 ## Selected Projects
 
