@@ -24,13 +24,13 @@ My approach is hands-on and structured: practice in labs, build projects, docume
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=linux,bash,git,github,docker,ansible,aws,jenkins&theme=dark" alt="Linux, Bash, Git, GitHub, Docker, Ansible, AWS, Jenkins" />
+<img src="https://skillicons.dev/icons?i=linux,bash,git,github,docker,ansible,aws,azure,jenkins,terraform,prometheus,grafana&theme=dark" alt="Linux, Bash, Git, GitHub, Docker, Ansible, AWS, Jenkins" />
 
 <br/>
 
 <img src="https://img.shields.io/badge/Kubernetes-Lab%20Experience-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes lab experience" />
 <img src="https://img.shields.io/badge/Python-Container%20Runtime%20Basics-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python container runtime basics" />
-<img src="https://img.shields.io/badge/Java-Coursework%20%26%20Exercises-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java coursework and exercises" />
+<img src="https://img.shields.io/badge/Java-Coursework%20%26%20Exercises-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java coursework and exercises" />\n<img src="https://img.shields.io/badge/Azure-Learning-0078D4?style=flat-square&logo=microsoftazure&logoColor=white" alt="Azure learning" />\n<img src="https://img.shields.io/badge/Terraform-Fundamentals%20%7C%20Learning-7B42BC?style=flat-square&logo=terraform&logoColor=white" alt="Terraform fundamentals learning" />\n<img src="https://img.shields.io/badge/Prometheus-Monitoring%20Basics-E6522C?style=flat-square&logo=prometheus&logoColor=white" alt="Prometheus monitoring basics" />\n<img src="https://img.shields.io/badge/Grafana-Dashboard%20Basics-F46800?style=flat-square&logo=grafana&logoColor=white" alt="Grafana dashboard basics" />
 
 </div>
 
@@ -42,7 +42,7 @@ My approach is hands-on and structured: practice in labs, build projects, docume
 | Automation | Ansible inventories, playbooks, roles |
 | Cloud | AWS EC2 setup and application deployment |
 | CI/CD | Jenkins labs and pipeline fundamentals |
-| Orchestration | Kubernetes lab practice |
+| Orchestration | Kubernetes lab practice |\n| Cloud learning | Azure fundamentals (learning) |\n| IaC & Observability | Terraform fundamentals, Prometheus and Grafana concepts (currently learning) |
 
 ## DevOps Lifecycle
 
